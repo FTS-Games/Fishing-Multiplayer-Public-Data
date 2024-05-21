@@ -1,0 +1,12 @@
+{
+  "defaults": {
+    "ip": "45.56.79.13"
+  },
+  "connections": [
+    {
+      "name": "Development",
+      "type": "client",
+      "ip": "45.56.79.13"
+    }
+  ]
+}
