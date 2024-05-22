@@ -4,6 +4,11 @@
   },
   "connections": [
     {
+      "name": "Debug Localhost",
+      "type": "client",
+      "ip": "127.0.0.1"
+    },
+    {
       "name": "Development",
       "type": "client",
       "ip": "45.56.79.13"
