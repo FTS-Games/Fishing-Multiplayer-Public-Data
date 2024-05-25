@@ -10,12 +10,17 @@
       "state": "primary"
     },
     {
-      "name": "Debug Localhost",
+      "name": "Debug Local Host",
+      "type": "host",
+      "ip": "127.0.0.1"
+    },
+    {
+      "name": "Debug Local Client",
       "type": "client",
       "ip": "127.0.0.1"
     },
     {
-      "name": "Test",
+      "name": "Test Server",
       "type": "client",
       "ip": "45.56.79.13"
     }
