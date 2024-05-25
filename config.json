@@ -4,7 +4,7 @@
   },
   "connections": [
     {
-      "name": "Demo",
+      "name": "Multiplayer Demo",
       "type": "client",
       "ip": "45.56.120.168",
       "state": "primary"
