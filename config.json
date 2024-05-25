@@ -1,15 +1,21 @@
 {
   "defaults": {
-    "ip": "45.56.79.13"
+    "ip": "45.56.120.168"
   },
   "connections": [
+    {
+      "name": "Demo",
+      "type": "client",
+      "ip": "45.56.120.168",
+      "state": "primary"
+    },
     {
       "name": "Debug Localhost",
       "type": "client",
       "ip": "127.0.0.1"
     },
     {
-      "name": "Development",
+      "name": "Test",
       "type": "client",
       "ip": "45.56.79.13"
     }
