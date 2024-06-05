@@ -1,15 +1,40 @@
 {
   "defaults": {
-    "ip": "45.56.120.168"
+    "ip": "45.56.68.184"
   },
   "connections": [
     {
-      "name": "Multiplayer",
+      "name": "Demo Server A",
       "type": "client",
-      "ip": "45.56.120.168",
+      "ip": "45.56.68.184",
       "state": "primary"
     },
     {
+      "name": "Test Server A",
+      "type": "client",
+      "ip": "45.56.68.85"
+    },
+    {
+      "name": "Dev Server Main",
+      "type": "client",
+      "ip": "173.255.205.34"
+    },
+    {
+      "name": "Dev Server A",
+      "type": "client",
+      "ip": "173.255.203.246"
+    },
+    {
+      "name": "Dev Server B",
+      "type": "client",
+      "ip": "45.33.126.202"
+    },
+    {
+      "name": "Dev Server C",
+      "type": "client",
+      "ip": "104.237.130.5"
+    },
+        {
       "name": "Debug Local Host",
       "type": "host",
       "ip": "127.0.0.1"
@@ -18,11 +43,6 @@
       "name": "Debug Local Client",
       "type": "client",
       "ip": "127.0.0.1"
-    },
-    {
-      "name": "Test Server",
-      "type": "client",
-      "ip": "45.56.79.13"
     }
   ]
 }
