@@ -1,18 +1,13 @@
 {
   "defaults": {
-    "ip": "45.56.68.184"
+    "ip": "45.56.68.85"
   },
   "connections": [
     {
-      "name": "Demo Server A",
-      "type": "client",
-      "ip": "45.56.68.184",
-      "state": "primary"
-    },
-    {
       "name": "Test Server A",
       "type": "client",
-      "ip": "45.56.68.85"
+      "ip": "45.56.68.85",
+      "state": "primary"
     },
     {
       "name": "Dev Server Main",
@@ -25,16 +20,6 @@
       "ip": "173.255.203.246"
     },
     {
-      "name": "Dev Server B",
-      "type": "client",
-      "ip": "45.33.126.202"
-    },
-    {
-      "name": "Dev Server C",
-      "type": "client",
-      "ip": "104.237.130.5"
-    },
-        {
       "name": "Debug Local Host",
       "type": "host",
       "ip": "127.0.0.1"
